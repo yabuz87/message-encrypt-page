@@ -25,7 +25,7 @@ const Home = () => {
       if (!originalText) throw new Error('Decryption failed. Invalid data or key.');
       return originalText;
     } catch (error) {
-      return 'Error: Invalid decryption or corrupted data.';
+      return 'Error: nothing has been decrypted';
     }
   }
 
